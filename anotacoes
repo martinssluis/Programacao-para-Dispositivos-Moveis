@@ -1,0 +1,9 @@
+COMO USAR O CELULAR COMO EMULADOR NO ANDROID STUDIO
+
+	acessar android studio novamente
+	sempre ao desconectar o dispositivo, será necessário fechar e abrir novamente o programa
+	os arquivo alterados nesse primeiro código foram: MainActivity, ExampleUnitTets, activity_main, colors, strings
+
+pequenas alterações foram feitas, apenas para o entendimentos dos comandos e sintaxe, conhecimento do ambiente
+(verificar se dart e flutter estão instalados corretamente)
+usar cabo de qualidade para evitar mal contato e comprometer a execução do código

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Declara a versão do XML e o tipo de codificação de caracteres, que é UTF-8-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+    LinearLayout: é um Layout que organiza seus filhos (componentes) em uma única direção, vertical
+    ou horizontal. Neste caso, ele organiza tudo verticalmente.
+
+    xmlns:android: Define o namespace padão para os atributos do Android
+
+    xmlns:tools:Define o namespace para ferramentas de desenvolvimento (somente para uso no editor,
+    não é executado no app)
+
+    android:Layout_width="match_parent": Define que a altura do Layout ocupara toda a largura disponível
+    do pai, neste caso, a tela
+
+    android:Layout_heinght="match_parent": Define que a altura do Layout ocupará toda a altura disponivel
+
+    tools:context=".MainActivity": Informa ao editor que este Layout está vinculado à classe MainActivity
+    -->
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:text="@string/text"
+    android:textColor="@color/vermelho"
+    android:textSize="50sp" />
+
+    <!--
+    TextView: Um componente de interface de usuário que exibe texto.
+
+    adroid:Layout_width="match_parent": Define que a largura do TextView será igual à largura da tela
+
+    android:layout_height="match_parent": Define que a altura do TextView será igual á altura da tela
+
+    android:gravity="cente": Centraliza o texto dendo da TextView, tanto horizontalmente como verticalmente
+
+    android: text="@string/text": Define o texto que será exibido na TextView
+    O valor @strinng/text faz referencia a um recurso de string que está definido no arquivo
+    (strings.xml), permitindo internacionalização e reutilização
+    android:textSize="30sp": Define o tamano do texto em sp (scale-independent pixel),
+    tamanho do texto de acordo com a densidade e as preferências do usuário (para legibilidade)
+
+    -->
+</LinearLayout>
